@@ -1,0 +1,55 @@
+
+body,
+h1,
+h2, 
+h3, 
+h4, 
+p {
+  margin: 0;
+  min-width: 850px;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 100%; font-weight: normal;
+}
+
+header {
+  height: 100vh;
+  background-image: url(https://avatars.mds.yandex.net/i?id=4f72ab8b330564b2541dc2deeec3056a_l-5235096-images-thumbs&n=13);
+  background-color: #eee;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 74px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 92, 238, 0.411);
+}
+
+.card {
+  width: 100%;
+  background-color: #b806ff;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  font-size: 41px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 28px;
+}
+
+img {
+  width: 716px;
+}
